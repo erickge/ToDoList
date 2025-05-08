@@ -6,17 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C80F4ACC2DCC556700772258 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80F4AC62DCC556700772258 /* DetailView.swift */; };
+		C80F4ACD2DCC556700772258 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80F4AC82DCC556700772258 /* ToDo.swift */; };
+		C80F4ACE2DCC556700772258 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80F4AC92DCC556700772258 /* ToDoListApp.swift */; };
+		C80F4ACF2DCC556700772258 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80F4ACA2DCC556700772258 /* ToDoListView.swift */; };
+		C80F4AD02DCC556700772258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80F4AC32DCC556700772258 /* Preview Assets.xcassets */; };
+		C80F4AD12DCC556700772258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80F4AC52DCC556700772258 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		C80F4AC32DCC556700772258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C80F4AC52DCC556700772258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C80F4AC62DCC556700772258 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C80F4AC72DCC556700772258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80F4AC82DCC556700772258 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		C80F4AC92DCC556700772258 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
+		C80F4ACA2DCC556700772258 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		C85A32462DC907B1007EB8B4 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C85A32482DC907B1007EB8B4 /* ToDoList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToDoList;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C85A32432DC907B1007EB8B4 /* Frameworks */ = {
@@ -29,10 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C80F4AC42DCC556700772258 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C80F4AC52DCC556700772258 /* Assets.xcassets */,
+				C80F4AC32DCC556700772258 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C80F4ACB2DCC556700772258 /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				C80F4AC92DCC556700772258 /* ToDoListApp.swift */,
+				C80F4AC62DCC556700772258 /* DetailView.swift */,
+				C80F4ACA2DCC556700772258 /* ToDoListView.swift */,
+				C80F4AC72DCC556700772258 /* Info.plist */,
+				C80F4AC82DCC556700772258 /* ToDo.swift */,
+				C80F4AC42DCC556700772258 /* Preview Content */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
 		C85A323D2DC907B1007EB8B4 = {
 			isa = PBXGroup;
 			children = (
-				C85A32482DC907B1007EB8B4 /* ToDoList */,
+				C80F4ACB2DCC556700772258 /* ToDoList */,
 				C85A32472DC907B1007EB8B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C85A32482DC907B1007EB8B4 /* ToDoList */,
 			);
 			name = ToDoList;
 			packageProductDependencies = (
@@ -109,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80F4AD02DCC556700772258 /* Preview Assets.xcassets in Resources */,
+				C80F4AD12DCC556700772258 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80F4ACC2DCC556700772258 /* DetailView.swift in Sources */,
+				C80F4ACD2DCC556700772258 /* ToDo.swift in Sources */,
+				C80F4ACE2DCC556700772258 /* ToDoListApp.swift in Sources */,
+				C80F4ACF2DCC556700772258 /* ToDoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +288,10 @@
 				DEVELOPMENT_TEAM = N24JNPX4SW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,9 +318,10 @@
 				DEVELOPMENT_TEAM = N24JNPX4SW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
